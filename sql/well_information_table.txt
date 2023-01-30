@@ -1,0 +1,80 @@
+USE [Gas_Forecasting_Sandbox]
+GO
+
+/****** Object:  Table [dbo].[WELL_INFORMATION]    Script Date: 1/30/2023 2:43:48 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[WELL_INFORMATION](
+	[WELL_KEY] [varchar](50) NULL,
+	[WELL_NAME] [varchar](50) NULL,
+	[WELLHEAD_LATITUDE] [float] NULL,
+	[WELLHEAD_LONGITUDE] [float] NULL,
+	[SANDFACE_LATITUDE] [float] NULL,
+	[SANDFACE_LONGITUDE] [float] NULL,
+	[SANDFACE_DLS] [varchar](50) NULL,
+	[SANDFACE_NTS] [varchar](50) NULL,
+	[API_FM] [varchar](50) NULL,
+	[COUNTRY] [varchar](50) NULL,
+	[PROVINCE_STATE] [varchar](50) NULL,
+	[FIELD_NAME] [varchar](50) NULL,
+	[FIELD_CODE] [float] NULL,
+	[POOL_NAME] [varchar](50) NULL,
+	[POOL_CODE] [float] NULL,
+	[FORMATION_NAME] [varchar](50) NULL,
+	[FORMATION_CODE] [float] NULL,
+	[COUNTY_PARRISH] [varchar](50) NULL,
+	[AREA_NAME] [varchar](50) NULL,
+	[NAD] [varchar](50) NULL,
+	[KB_ELEVATION] [float] NULL,
+	[GROUND_ELEVATION] [float] NULL,
+	[CASING_FLANGE_ELEVATION] [float] NULL,
+	[WELL_STATUS] [varchar](50) NULL,
+	[ENTITY_NO] [varchar](50) NULL,
+	[PRIMARY_FLUID] [float] NULL,
+	[CURRENT_STATUS] [float] NULL,
+	[STATUS_DATE] [datetime] NULL,
+	[UNIT] [varchar](50) NULL,
+	[UNIT_CODE] [varchar](50) NULL,
+	[NUM_OF_FRACS] [float] NULL,
+	[WELL_ALIAS] [varchar](50) NULL,
+	[BASIN] [varchar](50) NULL,
+	[BASIN_CODE] [varchar](50) NULL,
+	[BATTERY] [varchar](50) NULL,
+	[BATTERY_CODE] [varchar](50) NULL,
+	[BOTTOM_PERFORATION_MD] [float] NULL,
+	[BOTTOM_PERFORATION_TVD] [float] NULL,
+	[DISTRICT] [varchar](50) NULL,
+	[ENTITY_LOCATION] [varchar](50) NULL,
+	[GAS_GATHERER] [varchar](50) NULL,
+	[LATERAL_CODE] [varchar](50) NULL,
+	[LATERAL_NAME] [varchar](50) NULL,
+	[LICENSE_DATE] [datetime] NULL,
+	[METER_NUMBER] [varchar](50) NULL,
+	[OIL_CONDENSATE_GATHERER] [varchar](50) NULL,
+	[ONSHORE_OFFSHORE] [float] NULL,
+	[ORIGINAL_OPERATOR] [varchar](50) NULL,
+	[ORIGINAL_OPERATOR_CODE] [varchar](50) NULL,
+	[PLANT_CODE] [varchar](50) NULL,
+	[PLANT_NAME] [varchar](50) NULL,
+	[PLANT_TYPE] [varchar](50) NULL,
+	[PLANT_TYPE_DESCRIPTION] [varchar](50) NULL,
+	[PLUGBACK_DEPTH_MD] [float] NULL,
+	[PLUGBACK_DEPTH_TVD] [float] NULL,
+	[RIG_RELEASE_DATE] [datetime] NULL,
+	[SPUD_DATE] [datetime] NULL,
+	[TOP_PERFORATION_MD] [float] NULL,
+	[TOP_PERFORATION_TVD] [float] NULL,
+	[TOTAL_DEPTH_MD] [float] NULL,
+	[TOTAL_DEPTH_TVD] [float] NULL,
+	[WELL_TYPE] [float] NULL,
+	[USER_SPECIFIED_CUSTOM_ATTR_1] [float] NULL,
+	[USER_SPECIFIED_CUSTOM_ATTR_2] [float] NULL,
+	[USER_SPECIFIED_CUSTOM_ATTR_N] [float] NULL
+) ON [PRIMARY]
+GO
+
+
