@@ -1,21 +1,15 @@
-options(scipen = 999)
 library(RODBC); library(tidyverse); 
-setwd("O:/Alaska/Depts/Kenai/Gas Storage & Forecast/Production Forecast/Harmony Production")
+options(scipen = 999)
 
 # Construct the query
 wellInformation <- function() {
-  q <- "SELECT [WELL_KEY] as ENERTIA_CODE,
-        LEFT(REPLACE([WELLHEAD_UWI], '-', ''), 12) AS WELL_KEY,
-        [STATE],
+  q <- "SELECT [WELL_KEY],
+        LEFT(REPLACE([WELLHEAD_UWI], '-', ''), 12) AS API_FM,
+        [STATE] as [PROVINCE_STATE],
         [COUNTY_PARRISH],
-        [OPERATOR],
         [AREA_NAME],
         [FIELD_NAME],
-        [WELL_NAME],
-        [WELLHEAD_LATITUDE],
-        [WELLHEAD_LONGITUDE],
-        [SANDFACE_LATITUDE],
-        [SANDFACE_LONGITUDE]
+        [WELL_NAME]
       FROM [HarmonyDaily].[dbo].[WELL_INFORMATION] 
       where area_name in ('Cook Inlet Offshore - CIO', 'Kenai - KEN')
       order by AREA_NAME, FIELD_NAME"
@@ -34,25 +28,24 @@ wellInformation <- function() {
   # 2023-01-16 DRT: added column 'PrimaryFluid' to csv without testing. ???
   
   other_attr <- read.csv('harmony_conversion_import.csv', header = T)
-  wi <- left_join(wi, other_attr, by = 'ENERTIA_CODE')
+  wi <- plyr::join(wi, other_attr, type = 'left',  by = 'WELL_KEY')
   
   # cut the completion code (3 chars) off of the wi (well info) WELL_KEY 
   # as well. 
-  wi$ENERTIA_CODE_short <- substr(wi$ENERTIA_CODE, 1, 12)
-  wi$select <- with( wi, as.numeric(substr(ENERTIA_CODE, 13,15))*100)
+  wi$WELL_KEY_short <- substr(wi$WELL_KEY, 1, 12)
+  wi$select <- with( wi, as.numeric(substr(WELL_KEY, 13,15))*100)
   
   # 99 is default for pre-hak completions. make it zero where found.
   wi$select <- with(wi, ifelse(select > 50, 0, select))
   
   # get the name of the last completion created
-  wi$ENERTIA_CODE <- wi$ENERTIA_CODE_short
-  wi <- subset(wi, select = -ENERTIA_CODE_short)
+  wi$WELL_KEY <- wi$WELL_KEY_short
+  wi <- subset(wi, select = -WELL_KEY_short)
   
-  wi <- wi %>% group_by(ENERTIA_CODE) %>% slice_max(select, n = 1)
-  wi <- wi[!duplicated(wi$ENERTIA_CODE), ]
+  wi <- wi %>% group_by(WELL_KEY) %>% slice_max(select, n = 1)
+  wi <- wi[!duplicated(wi$WELL_KEY), ]
   wi <- as.data.frame(
-    subset(wi, select = -select)
-    )
+    subset(wi, select = -select))
   
   # Save to Gas_Forecasting_Sandbox
   str <- 'driver={SQL Server};server=ancsql04;database=Gas_Forecasting_Sandbox;trusted_connection=true'
@@ -66,7 +59,7 @@ wellInformation <- function() {
                  tablename = 'WELL_INFORMATION')
   RODBC::odbcClose(cn)
   
-  return(wi)
+   return(wi)
 }
 
 wi <- wellInformation()
@@ -82,7 +75,7 @@ updateProduction <- function(){
   # Construct the query for production data. There are 3.5 million rows of 
   # production data if we load all at once.  Will read and load in batches.
   
-  for(i in 1:11){#nrow(wi)) {
+  for(i in 1:2){#nrow(wi)) {
 
     print(paste0(i, '  ', wi$WELL[i]))
     q_i <- paste0("SELECT max(cast([DATE_TIME] as date)) ",
