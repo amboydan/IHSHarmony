@@ -1,10 +1,9 @@
 options(scipen = 999)
 library(RODBC); library(tidyverse); 
-setwd("O:/Alaska/Depts/Kenai/Gas Storage & Forecast/Production Forecast/Harmony Production")
 
 # Construct the query
 importDeclines <- function() {
-  q <- "SELECT left(prop.ENERTIA_CODE, 12) as ENERTIA_CODE,
+  q <- "SELECT left(prop.ENERTIA_CODE, 12) as WELL_KEY,
               [SECTION],
               [SEQUENCE],
               [QUALIFIER],
@@ -16,7 +15,8 @@ importDeclines <- function() {
         on prop.propnum = ada.WELL_KEY
         where prop.AREA in ('KEN', 'CIO') and
         ada.QUALIFIER in ('PLAN23','NS0722', 'NS0122', 
-        'NS0721', 'NS0121', 'NS0720', 'NS0120') and
+        'NS0721', 'NS0121', 'NS0720', 'NS0120', 'NS0719',
+        'NS0119','NS0718', 'NS0118') and
         prop.RSV_CAT = '1PDP'"
   
   # Open up the db.
