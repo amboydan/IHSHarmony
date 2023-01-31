@@ -63,7 +63,7 @@ well_info <- function() {
       FROM [sdeHAK].[dbo].[AK_PETRAWELLS_BOTTOM_NAD27] as btm
       left join sdeHAK.dbo.AK_PETRAWELLS_SURFACE_NAD27 as tp
       on tp.API = btm.API
-      where btm.county like '%KENAI%'"
+      where btm.state like '%ak%'"
   
   # 
   str <- 'driver={SQL Server};server=AW2GISSDEP1;database=sdeHAK;trusted_connection=true'
@@ -102,4 +102,6 @@ well_info <- function() {
   
   return(well_info)
 }
-wi <- well_info()
+write.csv(well_info(), paste0('well_information_', 
+                              gsub(':', "-", Sys.time()), 
+                              '.csv'), row.names = F)
