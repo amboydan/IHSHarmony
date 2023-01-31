@@ -102,6 +102,7 @@ well_info <- function() {
   
   return(well_info)
 }
-write.csv(well_info(), paste0('well_information_', 
+
+write.csv(well_info(), paste0('../IHSHarmony_dump/well_information_', 
                               gsub(':', "-", Sys.time()), 
                               '.csv'), row.names = F)
