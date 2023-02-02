@@ -58,7 +58,8 @@ updateProduction <- function(wi){
                      prd,
                      rownames = F,
                      append = T,
-                     varTypes = c(DATE_TIME = 'datetime'),
+                     varTypes = c(DATE_TIME = 'datetime',
+                                  SPUD_DATE = 'datetime'),
                      tablename = 'PRODUCTION_HISTORY')
       RODBC::odbcClose(cn)
     }
