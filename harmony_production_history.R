@@ -1,4 +1,4 @@
-source('harmony_kenai_well_information.R')
+source('O:/Alaska/Depts/Kenai/OptEng/drt/projects/IHSHarmony/harmony_kenai_well_information.R')
 
 wi <- well_info()
 

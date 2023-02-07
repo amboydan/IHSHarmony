@@ -1,4 +1,4 @@
-library(RODBC); library(tidyverse); 
+library(RODBC); library(tidyverse); library(DescTools)
 options(scipen = 999)
 
 # Construct the query
@@ -27,7 +27,7 @@ well_info <- function() {
   # from Petra, Petrel, etc.
   # 2023-01-16 DRT: added column 'PrimaryFluid' to csv without testing. ???
   
-  other_attr <- read.csv('harmony_conversion_import.csv', header = T)
+  other_attr <- read.csv('O:/Alaska/Depts/Kenai/OptEng/drt/projects/IHSHarmony/harmony_conversion_import.csv', header = T)
   wi <- plyr::join(wi, other_attr, type = 'left',  by = 'WELL_KEY')
   
   # cut the completion code (3 chars) off of the wi (well info) WELL_KEY 
@@ -46,6 +46,11 @@ well_info <- function() {
   wi <- wi[!duplicated(wi$WELL_KEY), ]
   wi <- as.data.frame(
     subset(wi, select = -select))
+  
+  # Rename 'AREA_NAME' of all Storage Wells
+  wi <- wi %>% 
+    mutate(AREA_NAME = ifelse(FIELD_NAME %like% '%Storage%',
+                              'Kenai Gas Storage', AREA_NAME))
   
   # Get other factors from sde geodatabase.
   q_geo <- "SELECT btm.API as API_FM,
@@ -86,7 +91,6 @@ well_info <- function() {
     tbl_names <- RODBC::sqlQuery(cn, q_names)
   RODBC::odbcClose(cn)
   well_info <- well_info[ , tbl_names$COLUMN_NAME]
-  #well_info[is.na(well_info)] <- 0
   
  # Save to Gas_Forecasting_Sandbox
   str <- 'driver={SQL Server};server=ancsql04;database=Gas_Forecasting_Sandbox;trusted_connection=true'

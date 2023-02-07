@@ -1,0 +1,672 @@
+50133     00
+ PRODUCTION
+  CUMS      0.0000 301.5215                                                       DRT23
+  START     02/2023                                                               DRT23
+  GAS       10660.0948 X M/D 6.0130 MOS HAR 26.9065                               DRT23
+  "         9034.0734 X M/D 60.1149 IMOS EXP 40.0000                              DRT23
+501331000501
+ PRODUCTION
+  CUMS      0.0000 19677.6936                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       833.4314 X M/D 246.8049 MOS EXP 8.0000                                DRT23
+501331013801
+ PRODUCTION
+  CUMS      0.0000 3204.3981                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       2235.5404 X M/D 8.0000 EXP B/0.4014 97.3849                           DRT23
+  "         X 150.0000 M/D X MOS EXP 8.0000                                       DRT23
+501331016401
+ PRODUCTION
+  CUMS      0.0000 776.3158                                                       DRT23
+  START     02/2023                                                               DRT23
+  GAS       1744.2822 X M/D 41.3326 MOS EXP 56.3962                               DRT23
+501332000601
+ PRODUCTION
+  CUMS      0.0000 2628.7041                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       970.1500 X M/D 5.0000 EXP B/1.8000 24.7348                            DRT23
+  "         X 1.9059 M/D X MOS EXP 5.0000                                         DRT23
+501332032301
+ PRODUCTION
+  CUMS      0.0000 9341.8815                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       979.2180 X M/D 50.4461 MOS EXP 36.0000                                DRT23
+501332032700
+ PRODUCTION
+  CUMS      0.0000 3033.5234                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       345.4133 X M/D 27.3374 MOS EXP 6.0000                                 DRT23
+501332032802
+ PRODUCTION
+  CUMS      0.0000 3199.7561                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       349.5563 X M/D 8.0000 EXP B/0.0948 31.4373                            DRT23
+  "         X 100.0000 M/D X MOS EXP 8.0000                                       DRT23
+501332034701
+ PRODUCTION
+  CUMS      0.0000 6180.0256                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       534.9353 X M/D 56.9436 MOS EXP 5.9418                                 DRT23
+501332040500
+ PRODUCTION
+  CUMS      0.0000 10510.9852                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       780.9436 X M/D 5.0000 EXP B/1.0000 58.8163                            DRT23
+  "         X 150.0000 M/D X MOS EXP 5.0000                                       DRT23
+501332047402
+ PRODUCTION
+  CUMS      0.0000 8648.2490                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       929.3688 X M/D 76.0786 MOS EXP 25.0000                                DRT23
+501332048801
+ PRODUCTION
+  CUMS      0.0000 856.5948                                                       DRT23
+  START     02/2023                                                               DRT23
+  GAS       590.5175 X M/D 41.6032 MOS EXP 32.6500                                DRT23
+501332049000
+ PRODUCTION
+  CUMS      0.0000 8933.3397                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1336.8557 X M/D 47.0192 MOS EXP 18.4916                               DRT23
+501332049100
+ PRODUCTION
+  CUMS      0.0000 3395.7003                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       997.5361 X M/D 93.3738 MOS EXP 21.6115                                DRT23
+501332049300
+ PRODUCTION
+  CUMS      0.0000 11373.5932                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       45.3457 X M/D 251.2765 MOS EXP 6.9650                                 DRT23
+501332049800
+ PRODUCTION
+  CUMS      0.0000 4247.7780                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       299.0101 X M/D 10.0223 MOS EXP 56.2189                                DRT23
+501332050300
+ PRODUCTION
+  CUMS      0.0000 534.2203                                                       DRT23
+  START     02/2023                                                               DRT23
+  GAS       128.5669 X M/D 1.9701 MOS EXP 78.3592                                 DRT23
+501332051100
+ PRODUCTION
+  CUMS      0.0000 4528.5468                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       901.7800 X M/D 184.7088 MOS EXP 11.0000                               DRT23
+501332051200
+ PRODUCTION
+  CUMS      0.0000 4840.6998                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       564.7304 X M/D 257.1063 MOS EXP 6.0000                                DRT23
+501332052400
+ PRODUCTION
+  CUMS      0.0000 1150.6904                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       28.3020 X M/D 49.9678 MOS EXP 8.0000                                  DRT23
+501332052900
+ PRODUCTION
+  CUMS      0.0000 5106.2620                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       805.1142 X M/D 8.0000 EXP B/0.0805 49.3912                            DRT23
+  "         X 100.0000 M/D X MOS EXP 8.0000                                       DRT23
+501332053001
+ PRODUCTION
+  CUMS      0.0000 3381.4702                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       2823.7294 X M/D 15.2251 MOS EXP 90.1078                               DRT23
+501332053500
+ PRODUCTION
+  CUMS      0.0000 5750.8104                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1120.8353 X M/D 72.3083 MOS EXP 28.3782                               DRT23
+501332053600
+ PRODUCTION
+  CUMS      0.0000 12084.6587                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       1334.6415 X M/D 132.2002 MOS EXP 7.0000                               DRT23
+501332053900
+ PRODUCTION
+  CUMS      0.0000 1609.5339                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1249.1593 X M/D 15.8347 MOS B/0.8000 79.2847                          DRT23
+501332054400
+ PRODUCTION
+  CUMS      0.0000 17783.2166                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       1276.0648 X M/D 354.0108 MOS EXP 7.0000                               DRT23
+501332054700
+ PRODUCTION
+  CUMS      0.0000 27703.4005                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       1097.2208 X M/D 286.4084 MOS EXP 7.9992                               DRT23
+501332054800
+ PRODUCTION
+  CUMS      0.0000 4140.9689                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       113.4795 X M/D 14.4022 MOS EXP 10.0000                                DRT23
+501332055301
+ PRODUCTION
+  CUMS      0.0000 8.7190                                                         DRT23
+  START     02/2023                                                               DRT23
+  GAS       109.6128 X M/D 8.0000 EXP B/0.1676 53.4465                            DRT23
+  "         X 50.0000 M/D X MOS EXP 8.0000                                        DRT23
+501332055401
+ PRODUCTION
+  CUMS      0.0000 5528.2430                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       431.6974 X M/D 7.8304 MOS EXP 69.2446                                 DRT23
+501332056400
+ PRODUCTION
+  CUMS      0.0000 7471.0209                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       794.6176 X M/D 261.5734 MOS EXP 7.3634                                DRT23
+501332056700
+ PRODUCTION
+  CUMS      0.0000 6424.7190                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       700.9783 X M/D 30.1665 MOS EXP 6.0000                                 DRT23
+501332056800
+ PRODUCTION
+  CUMS      0.0000 5330.9886                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       333.7267 X M/D 63.6259 MOS EXP 14.0000                                DRT23
+501332057300
+ PRODUCTION
+  CUMS      0.0000 4361.7471                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       647.1442 X M/D 44.6126 MOS EXP 32.5129                                DRT23
+501332057500
+ PRODUCTION
+  CUMS      0.0000 6088.6847                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       557.2887 X M/D 102.1003 MOS EXP 6.3122                                DRT23
+501332057600
+ PRODUCTION
+  CUMS      0.0000 10603.3296                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       1337.4908 X M/D 168.3604 MOS EXP 5.5534                               DRT23
+501332057901
+ PRODUCTION
+  CUMS      0.0000 711.7523                                                       DRT23
+  START     02/2023                                                               DRT23
+  GAS       568.3955 X M/D 105.7751 MOS EXP 51.3082                               DRT23
+501332058200
+ PRODUCTION
+  CUMS      0.0000 14904.8864                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       894.6350 X M/D 29.3585 MOS EXP 51.8053                                DRT23
+501332058500
+ PRODUCTION
+  CUMS      0.0000 4297.1944                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       475.4633 X M/D 126.8026 MOS EXP 10.3428                               DRT23
+501332058600
+ PRODUCTION
+  CUMS      0.0000 5711.0037                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       630.7015 X M/D 237.4839 MOS EXP 7.0000                                DRT23
+501332058800
+ PRODUCTION
+  CUMS      0.0000 8666.8943                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       823.5459 X M/D 26.0064 MOS EXP 54.4245                                DRT23
+501332058900
+ PRODUCTION
+  CUMS      0.0000 10074.5371                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       1299.8444 X M/D 88.4105 MOS EXP 25.4046                               DRT23
+501332062100
+ PRODUCTION
+  CUMS      0.0000 2022.3972                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       343.2465 X M/D 12.6414 MOS EXP 12.0000                                DRT23
+501332062400
+ PRODUCTION
+  CUMS      0.0000 2772.4559                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       927.3798 X M/D 104.8591 MOS EXP 18.8180                               DRT23
+501332062500
+ PRODUCTION
+  CUMS      0.0000 7556.5217                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       587.0131 X M/D 49.8409 MOS EXP 28.0000                                DRT23
+501332062900
+ PRODUCTION
+  CUMS      0.0000 9243.4756                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1295.6526 X M/D 17.0768 MOS EXP 41.7819                               DRT23
+501332063000
+ PRODUCTION
+  CUMS      0.0000 9510.4012                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1054.7560 X M/D 15.7147 MOS EXP 35.0000                               DRT23
+501332063100
+ PRODUCTION
+  CUMS      0.0000 1719.9111                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       709.1646 X M/D 94.9723 MOS EXP 17.8220                                DRT23
+501332063500
+ PRODUCTION
+  CUMS      0.0000 4660.0701                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1196.4216 X M/D 31.2760 MOS EXP 49.6573                               DRT23
+501332063800
+ PRODUCTION
+  CUMS      0.0000 7807.5436                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       2282.8506 X M/D 48.3663 MOS EXP 49.2913                               DRT23
+501332063900
+ PRODUCTION
+  CUMS      0.0000 11155.9034                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       942.3800 X M/D 48.4643 MOS EXP 36.7848                                DRT23
+501332064300
+ PRODUCTION
+  CUMS      0.0000 5010.7775                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       368.1427 X M/D 29.1089 MOS EXP 30.9354                                DRT23
+501332064500
+ PRODUCTION
+  CUMS      0.0000 741.2967                                                       DRT23
+  START     02/2023                                                               DRT23
+  GAS       216.6487 X M/D 12.8680 MOS EXP 51.3713                                DRT23
+501332064700
+ PRODUCTION
+  CUMS      0.0000 2818.3475                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1560.9676 X M/D 64.2031 MOS EXP 35.4555                               DRT23
+501332064900
+ PRODUCTION
+  CUMS      0.0000 1734.0690                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       400.3784 X M/D 94.4519 MOS EXP 11.0000                                DRT23
+501332065200
+ PRODUCTION
+  CUMS      0.0000 1897.1457                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1251.6902 X M/D 11.3603 MOS EXP 93.0705                               DRT23
+501332065300
+ PRODUCTION
+  CUMS      0.0000 4451.7384                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       966.7056 X M/D 138.9959 MOS EXP 14.8590                               DRT23
+501332065700
+ PRODUCTION
+  CUMS      0.0000 8912.9602                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1631.6794 X M/D 41.8399 MOS EXP 49.5674                               DRT23
+501332065800
+ PRODUCTION
+  CUMS      0.0000 3617.4443                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1964.1458 X M/D 86.5385 MOS EXP 30.0000                               DRT23
+501332065900
+ PRODUCTION
+  CUMS      0.0000 4409.3301                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1248.4458 X M/D 24.2215 MOS EXP 65.0000                               DRT23
+501332066000
+ PRODUCTION
+  CUMS      0.0000 1656.2734                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       835.1058 X M/D 103.2307 MOS EXP 18.0928                               DRT23
+501332066100
+ PRODUCTION
+  CUMS      0.0000 3956.2843                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       375.4013 X M/D 18.2947 MOS EXP 45.2133                                DRT23
+501332066200
+ PRODUCTION
+  CUMS      0.0000 3149.7741                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       499.6695 X M/D 11.9934 MOS EXP 70.0000                                DRT23
+501332066300
+ PRODUCTION
+  CUMS      0.0000 4049.5781                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1795.8802 X M/D 25.8138 MOS B/0.5350 73.6061                          DRT23
+501332066500
+ PRODUCTION
+  CUMS      0.0000 2411.6106                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1658.0268 X M/D 40.3779 MOS EXP 51.0357                               DRT23
+501332068300
+ PRODUCTION
+  CUMS      0.0000 1293.7355                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       837.4777 X M/D 333.5269 MOS EXP 6.0000                                DRT23
+501332068400
+ PRODUCTION
+  CUMS      0.0000 1242.1672                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1040.4681 X M/D 22.1385 MOS EXP 65.0000                               DRT23
+501332068500
+ PRODUCTION
+  CUMS      0.0000 1464.4897                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1288.3189 X M/D 52.9950 MOS EXP 38.5497                               DRT23
+501332068600
+ PRODUCTION
+  CUMS      0.0000 1668.0124                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1741.2654 X M/D 32.1086 MOS EXP 60.0000                               DRT23
+501332068700
+ PRODUCTION
+  CUMS      0.0000 1661.6608                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1539.5971 X M/D 120.3411 MOS EXP 20.7216                              DRT23
+501332069100
+ PRODUCTION
+  CUMS      0.0000 1982.3693                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1525.8527 X M/D 63.5572 MOS EXP 35.4654                               DRT23
+501332069300
+ PRODUCTION
+  CUMS      0.0000 3200.1974                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       2501.5593 X M/D 115.2306 MOS B/0.3770 37.8945                         DRT23
+501332069600
+ PRODUCTION
+  CUMS      0.0000 749.7018                                                       DRT23
+  START     02/2023                                                               DRT23
+  GAS       527.1565 X M/D 21.4084 MOS HAR 58.4955                                DRT23
+501332070400
+ PRODUCTION
+  CUMS      0.0000 551.5051                                                       DRT23
+  START     02/2023                                                               DRT23
+  GAS       831.8963 X M/D 24.6436 MOS EXP 64.3565                                DRT23
+501332070500
+ PRODUCTION
+  CUMS      0.0000 748.6044                                                       DRT23
+  START     02/2023                                                               DRT23
+  GAS       1709.4373 X M/D 93.2504 MOS EXP 26.8844                               DRT23
+501332070600
+ PRODUCTION
+  CUMS      0.0000 359.4717                                                       DRT23
+  START     02/2023                                                               DRT23
+  GAS       5458.2191 X M/D 10.4488 MOS EXP 32.5668                               DRT23
+  "         3872.9833 X M/D 13.0231 IMOS EXP 95.0000                              DRT23
+501332070700
+ PRODUCTION
+  CUMS      0.0000 1492.1460                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       6035.9673 X M/D 51.3452 MOS B/0.3000 68.6205                          DRT23
+501332070900
+ PRODUCTION
+  CUMS      0.0000 34.4642                                                        DRT23
+  START     02/2023                                                               DRT23
+  GAS       516.3236 X M/D 27.9540 MOS EXP 33.4444                                DRT23
+502312001400
+ PRODUCTION
+  CUMS      0.0000 1355.4305                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       68.1806 X M/D 17.8604 MOS EXP 18.8096                                 DRT23
+502312002100
+ PRODUCTION
+  CUMS      0.0000 1673.6344                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       224.8116 X M/D 28.0805 MOS EXP 16.3979                                DRT23
+502312002800
+ PRODUCTION
+  CUMS      0.0000 10849.8386                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       172.1982 X M/D 18.2847 MOS EXP 30.0000                                DRT23
+502312003100
+ PRODUCTION
+  CUMS      0.0000 4728.1468                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       829.2224 X M/D 176.0711 MOS EXP 11.0000                               DRT23
+502312003900
+ PRODUCTION
+  CUMS      0.0000 5667.7437                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       524.2617 X M/D 28.8190 MOS EXP 10.6532                                DRT23
+502312004001
+ PRODUCTION
+  CUMS      0.0000 200.3983                                                       DRT23
+  START     02/2023                                                               DRT23
+  GAS       1138.5979 X M/D 80.6912 MOS EXP 26.0243                               DRT23
+502312004900
+ PRODUCTION
+  CUMS      0.0000 3140.0849                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1365.6363 X M/D 81.3393 MOS EXP 13.9562                               DRT23
+502831002600
+ PRODUCTION
+  CUMS      0.0000 3727.9135                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1752.6628 X M/D 58.0848 MOS EXP 30.5568                               DRT23
+502831002700
+ PRODUCTION
+  CUMS      0.0000 4719.1681                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1449.4301 X M/D 171.3646 MOS EXP 7.2736                               DRT23
+502832006101
+ PRODUCTION
+  CUMS      0.0000 6973.7589                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       370.5968 X M/D 17.0306 MOS EXP 47.1286                                DRT23
+502832007700
+ PRODUCTION
+  CUMS      0.0000 1703.0593                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       768.4632 X M/D 34.4373 MOS EXP 43.4077                                DRT23
+502832008300
+ PRODUCTION
+  CUMS      0.0000 11025.6501                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       2549.3084 X M/D 45.0739 MOS EXP 6.2564                                DRT23
+502832008800
+ PRODUCTION
+  CUMS      0.0000 6215.1918                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1597.4480 X M/D 12.0502 MOS B/0.5000 87.4123                          DRT23
+502832008999
+ PRODUCTION
+  CUMS      0.0000 5383.0240                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       3000.3322 X M/D 17.3171 MOS EXP 71.1103                               DRT23
+502832012400
+ PRODUCTION
+  CUMS      0.0000 7762.1345                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1451.1747 X M/D 20.8074 MOS EXP 19.3261                               DRT23
+502832012800
+ PRODUCTION
+  CUMS      0.0000 5323.9492                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1238.1254 X M/D 34.0614 MOS EXP 7.2490                                DRT23
+502832013000
+ PRODUCTION
+  CUMS      0.0000 8080.4004                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1672.4327 X M/D 9.7890 MOS B/0.1620 91.9282                           DRT23
+502832013601
+ PRODUCTION
+  CUMS      0.0000 3942.4042                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       2795.7649 X M/D 141.7203 MOS EXP 21.9398                              DRT23
+502832015700
+ PRODUCTION
+  CUMS      0.0000 7685.7541                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1994.5188 X M/D 78.7743 MOS EXP 9.9830                                DRT23
+502832016400
+ PRODUCTION
+  CUMS      0.0000 2517.4069                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       573.9937 X M/D 22.0336 MOS EXP 51.8512                                DRT23
+502832016500
+ PRODUCTION
+  CUMS      0.0000 3330.2628                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       2013.1432 X M/D 58.0421 MOS EXP 41.5432                               DRT23
+502832018000
+ PRODUCTION
+  CUMS      0.0000 3623.2206                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       2942.3360 X M/D 130.4522 MOS EXP 23.9505                              DRT23
+502832018100
+ PRODUCTION
+  CUMS      0.0000 4412.0767                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       6421.3997 X M/D 215.1098 MOS EXP 18.9069                              DRT23
+502832018200
+ PRODUCTION
+  CUMS      0.0000 1854.7675                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       3142.2184 X M/D 163.5924 MOS EXP 20.0000                              DRT23
+502832018400
+ PRODUCTION
+  CUMS      0.0000 492.0164                                                       DRT23
+  START     02/2023                                                               DRT23
+  GAS       1229.5633 X M/D 7.5523 MOS B/0.2190 92.7407                           DRT23
+502832018500
+ PRODUCTION
+  CUMS      0.0000 170.0978                                                       DRT23
+  START     02/2023                                                               DRT23
+  GAS       3087.2566 X M/D 8.0000 EXP B/0.0027 32.9895                           DRT23
+  "         X 200.0000 M/D X MOS EXP 8.0000                                       DRT23
+502832018600
+ PRODUCTION
+  CUMS      0.0000 245.1520                                                       DRT23
+  START     02/2023                                                               DRT23
+  GAS       4217.1316 X M/D 8.0000 EXP B/1.0000 33.1923                           DRT23
+  "         X 20.0000 M/D X MOS EXP 8.0000                                        DRT23
+502832018700
+ PRODUCTION
+  CUMS      0.0000 317.7666                                                       DRT23
+  START     02/2023                                                               DRT23
+  GAS       2728.1183 X M/D 28.8001 MOS EXP 70.1395                               DRT23
+507332038800
+ PRODUCTION
+  CUMS      0.0000 29053.0005                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       495.7906 X M/D 103.0160 MOS EXP 13.0000                               DRT23
+507332038900
+ PRODUCTION
+  CUMS      0.0000 27499.5116                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       211.3716 X M/D 12.9574 MOS EXP 50.0000                                DRT23
+507332040801
+ PRODUCTION
+  CUMS      0.0000 25998.7875                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       1205.6059 X M/D 270.5502 MOS EXP 27.0000                              DRT23
+507332041300
+ PRODUCTION
+  CUMS      0.0000 24038.7293                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       587.1311 X M/D 34.2555 MOS EXP 38.0000                                DRT23
+507332042101
+ PRODUCTION
+  CUMS      0.0000 43174.9460                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       1369.0909 X M/D 63.8609 MOS EXP 34.0000                               DRT23
+507332042200
+ PRODUCTION
+  CUMS      0.0000 41962.2793                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       547.4187 X M/D 14.7977 MOS EXP 65.0000                                DRT23
+507332043500
+ PRODUCTION
+  CUMS      0.0000 49605.8274                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       1596.3603 X M/D 77.7750 MOS EXP 30.5717                               DRT23
+507332048001
+ PRODUCTION
+  CUMS      0.0000 39330.9799                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       607.4078 X M/D 75.2107 MOS EXP 20.0000                                DRT23
+507332050500
+ PRODUCTION
+  CUMS      0.0000 11603.9156                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       892.3813 X M/D 81.6310 MOS EXP 23.0600                                DRT23
+507332055200
+ PRODUCTION
+  CUMS      0.0000 13083.6405                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       3110.2060 X M/D 132.5686 MOS EXP 24.0000                              DRT23
+507332058300
+ PRODUCTION
+  CUMS      0.0000 12211.9033                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       394.2442 X M/D 201.1127 MOS EXP 30.0000                               DRT23
+507332058800
+ PRODUCTION
+  CUMS      0.0000 8263.3069                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       726.2573 X M/D 75.0982 MOS EXP 22.2781                                DRT23
+508832001601
+ PRODUCTION
+  CUMS      0.0000 9491.5733                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1461.5263 X M/D 5.0000 EXP B/2.0000 25.3247                           DRT23
+  "         X 4.2013 M/D X MOS EXP 5.0000                                         DRT23
+508832001800
+ PRODUCTION
+  CUMS      0.0000 45035.9795                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       3580.4547 X M/D 626.6955 MOS EXP 14.5045                              DRT23
+508832002001
+ PRODUCTION
+  CUMS      0.0000 14768.6037                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       4815.6242 X M/D 5.0000 EXP B/0.9900 11.3723                           DRT23
+  "         X 9.0503 M/D X MOS EXP 5.0000                                         DRT23
+508832002301
+ PRODUCTION
+  CUMS      0.0000 24726.3359                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       4595.6276 X M/D 600.9443 MOS EXP 7.3585                               DRT23
+508832002500
+ PRODUCTION
+  CUMS      0.0000 54300.9370                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       4281.4553 X M/D 180.3971 MOS EXP 22.1127                              DRT23
+508832002901
+ PRODUCTION
+  CUMS      0.0000 35884.8609                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       2879.8279 X M/D 2.1352 MOS B/1.8000 41.5556                           DRT23
+  "         2500.0000 X M/D 752.0000 IMOS HAR 20.0000                             DRT23
+508832003001
+ PRODUCTION
+  CUMS      0.0000 13033.7261                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       3133.0938 X M/D 2.6668 MOS B/2.1000 37.1301                           DRT23
+  "         2700.0000 X M/D 816.0000 IMOS HAR 20.0000                             DRT23
+508832003102
+ PRODUCTION
+  CUMS      0.0000 492.7346                                                       DRT23
+  START     02/2023                                                               DRT23
+  GAS       2524.3941 X M/D 1.7665 MOS EXP 60.7166                                DRT23
+  "         2174.9147 X M/D 647.9727 IMOS HAR 20.0000                             DRT23
+508832009001
+ PRODUCTION
+  CUMS      0.0000 2232.2910                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       2419.0352 X M/D 327.1084 MOS HAR 35.6885                              DRT23
+508832009501
+ PRODUCTION
+  CUMS      0.0000 22565.2666                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       4485.0588 X M/D 1.9815 MOS EXP 50.0000                                DRT23
+  "         4000.0000 X M/D 1232.0000 IMOS HAR 20.0000                            DRT23
+508832012500
+ PRODUCTION
+  CUMS      0.0000 7685.6235                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       431.4993 X M/D 8.0000 EXP B/0.5000 14.0982                            DRT23
+  "         X 20.0000 M/D X MOS EXP 8.0000                                        DRT23
+508832012600
+ PRODUCTION
+  CUMS      0.0000 10699.7863                                                     DRT23
+  START     02/2023                                                               DRT23
+  GAS       1213.2616 X M/D 1205.7853 MOS EXP 6.0000                              DRT23
+508832012700
+ PRODUCTION
+  CUMS      0.0000 3171.7232                                                      DRT23
+  START     02/2023                                                               DRT23
+  GAS       1884.2853 X M/D 243.9039 MOS EXP 31.0000                              DRT23
