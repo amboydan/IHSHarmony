@@ -1,6 +1,8 @@
 library(RODBC); library(tidyverse); library(DescTools)
 options(scipen = 999)
 
+setwd('O:/Alaska/Depts/Kenai/OptEng/drt/projects/IHSHarmony')
+
 # Construct the query
 well_info <- function() {
   q <- "SELECT [WELL_KEY],
