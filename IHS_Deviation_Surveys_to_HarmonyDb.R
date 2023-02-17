@@ -17,10 +17,11 @@ RODBC::odbcClose(cn)
 
 count_empty = 0
 count_total = 0
-for(i in 1:nrow(api_all)) {
+for(i in 291:nrow(api_all)) {
   api <- paste0(api_all[i,'API_FM'],'00')
   
   get_survey <- function(api, usn, pwd) {
+    
     url <- paste0(
       'https://energydataservices.ihsenergy.com',
       '/rest/data/v3//northamerica/well/retrieve/',
@@ -35,7 +36,9 @@ for(i in 1:nrow(api_all)) {
                           Authorization = usn_pwd_64))
     
     cntnt <- content(get_response)
-    if(is.null(cntnt$elements)) {
+    if(is.na(as.numeric(api))) {
+      dt <- 'elements do not exist'
+    } else if(is.null(cntnt$elements)) {
       dt <- 'elements do not exist'
     } else {
       ele <- content(get_response)$elements
@@ -62,11 +65,11 @@ for(i in 1:nrow(api_all)) {
     spud_date <- api_all[i, 'SPUD_DATE']
     if(is.na(spud_date)) spud_date <- Sys.Date()
     
-    q_row <- paste0("INSERT INTO CWB_CONFIG (WELL_KEY, WB_CONFIG_ID, DATE_TIME, CONFIG_NAME) ",
+    q_cwb <- paste0("INSERT INTO CWB_CONFIG (WELL_KEY, WB_CONFIG_ID, DATE_TIME, CONFIG_NAME) ",
                     "VALUES ('", api_all[i, 'WELL_KEY'], "', 1, '", spud_date,
-                    "', 'Initial'")
+                    "', 'Initial')")
     cn <- RODBC::odbcDriverConnect(str)
-      RODBC::sqlQuery(cn, q_row)
+      RODBC::sqlQuery(cn, q_cwb)
     RODBC::odbcClose(cn)
     
     for(row in 1:nrow(df)) {
